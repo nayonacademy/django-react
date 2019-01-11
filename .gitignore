@@ -1,0 +1,141 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+todo_api/*.py[cod]
+*$py.class
+
+# C extensions
+todo_api/*.so
+
+todo_api/todos/migrations
+
+# Flask stuff:
+todo_api/instance/
+todo_api/.webassets-cache
+
+# Scrapy stuff:
+todo_api/*.scrapy
+
+# Sphinx documentation
+todo_api/docs/_build/
+
+# PyBuilder
+todo_api/target/
+
+# Jupyter Notebook
+todo_api/*.ipynb_checkpoints
+
+# pyenv
+todo_api/*.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+todo_api/*.env
+todo_api/*.venv
+todo_api/env/
+todo_api/venv/
+todo_api/ENV/
+todo_api/env.bak/
+todo_api/venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+todo_api/*.ropeproject
+
+# mkdocs documentation
+todo_api//site
+
+# mypy
+todo_api/.mypy_cache/
+
+todo_api/.idea/
+.idea
+
+
+# Byte-compiled / optimized / DLL files
+todo_api/__pycache__/
+
+
+# Distribution / packaging
+todo_api/bin/
+todo_api/build/
+todo_api/develop-eggs/
+todo_api/dist/
+todo_api/eggs/
+todo_api/lib/
+todo_api/lib64/
+todo_api/parts/
+todo_api/sdist/
+todo_api/var/
+todo_api/*.egg-info/
+todo_api/*.installed.cfg
+todo_api/*.egg
+
+# Installer logs
+todo_api/pip-log.txt
+todo_api/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+todo_api/*.tox/
+todo_api/*.coverage
+todo_api/*.cache
+todo_api/nosetests.xml
+todo_api/coverage.xml
+
+# Translations
+todo_api/*.mo
+
+# Mr Developer
+todo_api/*.mr.developer.cfg
+todo_api/*.project
+todo_api/*.pydevproject
+
+# Rope
+
+# Django stuff:
+todo_api/*.log
+todo_api/*.pot
+
+# Sphinx documentation
+
+todo_api/*.virtualenv
+todo_api/*.idea
+todo_api/*.vscode
+
+# Python cache
+todo_api/__pycache__
+todo_api/*.pyc
+
+################# for react app
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/node_modules
+frontend/*.pnp
+frontend/*.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+todo_api/*.DS_Store
+todo_api/*.env.local
+todo_api/*.env.development.local
+todo_api/*.env.test.local
+todo_api/*.env.production.local
+
+todo_api/npm-debug.log*
+todo_api/yarn-debug.log*
+todo_api/yarn-error.log*
